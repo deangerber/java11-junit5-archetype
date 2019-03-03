@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.deangerber.archetypes</groupId>
-  <artifactId>maven-archetype</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <name>maven-archetype</name>
+  <artifactId>java11-junit5-archetype</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>java11-junit5-archetype</name>
   <packaging>maven-archetype</packaging>
   <description>Archetype used to generate basic JAVA 11 and JUnit 5 application</description>
 
