@@ -12,7 +12,7 @@
       </includes>
     </fileSet>
     <fileSet>
-      <directory>src/main/resource</directory>
+      <directory>src/main/resources</directory>
       <includes>
         <include>**/.gitkeep</include>
       </includes>
@@ -24,7 +24,7 @@
       </includes>
     </fileSet>
     <fileSet>
-      <directory>src/test/resource</directory>
+      <directory>src/test/resources</directory>
       <includes>
         <include>**/.gitkeep</include>
       </includes>
