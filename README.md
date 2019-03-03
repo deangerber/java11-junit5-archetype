@@ -1,6 +1,6 @@
 # Java 11 + JUnit 5 Quick Start Maven Archetype
 
-Maven archetype to create a project configured for Java 11 and using JUnit 5. 
+Maven archetype to create a project configured for Java 11 and using JUnit 5.
 
 ## Install archetype in local repository
 
@@ -17,10 +17,10 @@ When the archetype has been installed locally you can create a project using the
 ``` shell
  mvn archetype:generate -DarchetypeGroupId=com.deangerber.archetypes
                         -DarchetypeArtifactId=maven-archetype
-                        -DarchetypeVersion=1.0-SNAPSHOT
+                        -DarchetypeVersion=1.0.0-SNAPSHOT
                         -DgroupId=com.deangerber.kata.stringcalculator
                         -DartifactId=stringcalculator
-                        -Dversion=1.0-SNAPSHOT
+                        -Dversion=1.0.0-SNAPSHOT
 ```
 
 ## References
