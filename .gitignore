@@ -1,3 +1,15 @@
+# Jetbrains IntelliJ specific files
 .idea
-target
 maven-archetype.iml
+
+# Visual Studio Code specific files
+.vscode
+.settings
+.project
+*.code-workspace
+
+# Build output directory
+target
+
+# Jenv file for specifying the project java version
+.java-version
