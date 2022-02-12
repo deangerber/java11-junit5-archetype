@@ -1,11 +1,23 @@
-<archetype-descriptor
-    xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
-    xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    name="Java 11 with JUnit 5">
+<archetype-descriptor 
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" 
+  xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  name="Java 11 with JUnit 5">
+
+  <requiredProperties>
+    <requiredProperty key="gitignore">
+      <defaultValue>.gitignore</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
 
   <fileSets>
-    <fileSet filtered="true" packaged="true">
+    <fileSet encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>__gitignore__</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
       <directory>src/main/java</directory>
       <includes>
         <include>**/*.java</include>
@@ -17,7 +29,7 @@
         <include>**/.gitkeep</include>
       </includes>
     </fileSet>
-    <fileSet filtered="true" packaged="true">
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
       <directory>src/test/java</directory>
       <includes>
         <include>**/*Should.java</include>
