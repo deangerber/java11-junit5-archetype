@@ -30,3 +30,9 @@ When the archetype has been installed locally you can create a project using the
 * [Maven Archetype](https://maven.apache.org/guides/introduction/introduction-to-archetypes.html)
 * [JUnit 5](https://junit.org/junit5/)
 * [Hamcrest](http://hamcrest.org/JavaHamcrest/)
+
+## License
+
+Copyright © 2022 [Dean Gerber](https://github.com/deangerber).
+
+This project is [MIT](https://github.com/deangerber/java11-junit5-archetype/blob/master/LICENSE) licensed.
