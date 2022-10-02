@@ -17,7 +17,7 @@ When the archetype has been installed locally you can create a project using the
 ``` shell
  mvn archetype:generate -DarchetypeGroupId=com.deangerber.archetypes \
                         -DarchetypeArtifactId=java11-junit5-archetype \
-                        -DarchetypeVersion=1.0.0-SNAPSHOT \
+                        -DarchetypeVersion=1.1.0-SNAPSHOT \
                         -DgroupId=com.deangerber.kata.stringcalculator \
                         -DartifactId=stringcalculator \
                         -Dversion=1.0.0-SNAPSHOT \
